@@ -11,7 +11,9 @@ const Index = () => {
   ];
 
   const linuxSkills = [
-    "Ubuntu", "CentOS", "Red Hat", "Shell Scripting", "System Administration",
+    "Red Hat",
+    "Ubuntu", "CentOS",
+    "Shell Scripting", "System Administration",
     "Docker", "Kubernetes", "Nginx", "Apache", "MySQL", "PostgreSQL",
     "Git", "Jenkins", "Ansible", "Terraform", "Monitoring & Logging"
   ];
@@ -143,7 +145,7 @@ const Index = () => {
                   Linux & DevOps Tools
                 </CardTitle>
                 <CardDescription>
-                  System administration and automation expertise
+                  Experienced with <span className="font-semibold text-green-700">Red Hat Enterprise Linux</span> administration, automation, and integration in DevOps environments, plus extensive system administration and automation expertise.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -152,7 +154,7 @@ const Index = () => {
                     <Badge 
                       key={skill} 
                       variant="secondary" 
-                      className="bg-gradient-to-r from-green-100 to-green-200 text-green-800 hover:from-green-200 hover:to-green-300 transition-all duration-200 cursor-default"
+                      className={`bg-gradient-to-r from-green-100 to-green-200 text-green-800 hover:from-green-200 hover:to-green-300 transition-all duration-200 cursor-default ${skill === "Red Hat" ? "ring-2 ring-red-500 font-semibold" : ""}`}
                     >
                       {skill}
                     </Badge>
