@@ -66,10 +66,10 @@ const Index = () => {
               </div>
             </div>
             {/* User Name */}
-            <h2 className="text-2xl font-bold text-gray-800 mb-1">
+            <h2 className="text-2xl font-bold text-white mb-1">
               Hi, I'm <span className="font-bold">k.syamprasad</span>
             </h2>
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-indigo-300 bg-clip-text text-transparent">
               DevOps Engineer
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -83,10 +83,10 @@ const Index = () => {
               </Button>
             </div>
             {/* About Me Heading & Description moved here */}
-            <h3 className="mt-10 text-xl font-bold text-gray-900">
+            <h3 className="mt-10 text-xl font-bold text-white">
               About Me
             </h3>
-            <p className="mt-2 text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
+            <p className="mt-2 text-lg leading-8 text-gray-200 max-w-3xl mx-auto">
               Passionate about building scalable, secure, and automated infrastructure solutions using AWS cloud services and Linux systems. 
               Specializing in CI/CD pipelines, containerization, and infrastructure as code.
             </p>
@@ -98,10 +98,10 @@ const Index = () => {
       <section className="py-20 px-6">
         <div className="mx-auto max-w-7xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Technical Expertise
             </h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg text-gray-200">
               Proficient in modern DevOps tools and cloud technologies
             </p>
           </div>
@@ -170,10 +170,10 @@ const Index = () => {
       <section className="py-20 px-6 bg-white/30 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
               Featured Projects
             </h2>
-            <p className="mt-4 text-lg text-gray-600">
+            <p className="mt-4 text-lg text-gray-800">
               Some of my recent DevOps implementations and infrastructure projects
             </p>
           </div>
@@ -218,10 +218,10 @@ const Index = () => {
       {/* Contact Section */}
       <section className="py-20 px-6">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8">
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl mb-8">
             Let's Build Something Amazing Together
           </h2>
-          <p className="text-lg text-gray-600 mb-12">
+          <p className="text-lg text-gray-200 mb-12">
             Ready to optimize your infrastructure and streamline your deployment processes? Let's discuss how I can help.
           </p>
           
@@ -263,10 +263,10 @@ const Index = () => {
       <footer className="bg-gray-50 py-12 px-6">
         <div className="mx-auto max-w-7xl">
           <div className="text-center">
-            <p className="text-gray-600">
+            <p className="text-gray-700">
               © 2024 DevOps Portfolio. Built with React, TypeScript, and Tailwind CSS.
             </p>
-            <p className="text-sm text-gray-500 mt-2">
+            <p className="text-sm text-gray-600 mt-2">
               Deployed on AWS with automated CI/CD pipeline
             </p>
           </div>
