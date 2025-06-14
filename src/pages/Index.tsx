@@ -1,4 +1,3 @@
-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -71,7 +70,11 @@ const Index = () => {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               DevOps Engineer
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
+            {/* About Me Heading */}
+            <h3 className="mt-6 text-xl font-bold text-gray-900">
+              About Me
+            </h3>
+            <p className="mt-2 text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
               Passionate about building scalable, secure, and automated infrastructure solutions using AWS cloud services and Linux systems. 
               Specializing in CI/CD pipelines, containerization, and infrastructure as code.
             </p>
