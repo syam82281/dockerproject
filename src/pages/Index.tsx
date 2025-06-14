@@ -56,7 +56,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-xl opacity-20 animate-pulse"></div>
               <div className="relative">
                 <img 
-                  src="/lovable-uploads/e18abbcb-a9a8-490a-8111-1c6a9887eb40.png" 
+                  src="/lovable-uploads/335a40a2-e5ca-4ec2-93cd-fcb5f3cdce51.png" 
                   alt="DevOps Engineer Profile" 
                   className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white shadow-2xl"
                 />
