@@ -46,7 +46,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-black">
       {/* Hero Section */}
       <section className="relative px-6 py-20 sm:py-32">
         <div className="mx-auto max-w-7xl">
