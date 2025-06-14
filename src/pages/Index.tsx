@@ -226,17 +226,34 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button size="lg" className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl">
-              <Mail className="mr-2 h-5 w-5" />
-              contact@devopsexpert.com
-            </Button>
-            <div className="flex gap-4">
-              <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
-                <Github className="h-5 w-5" />
+            <a
+              href="mailto:syamprasa27@gmail.com"
+              className="w-full sm:w-auto"
+            >
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl w-full sm:w-auto"
+              >
+                <Mail className="mr-2 h-5 w-5" />
+                syamprasa27@gmail.com
               </Button>
-              <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
-                <Linkedin className="h-5 w-5" />
-              </Button>
+            </a>
+            <div className="flex flex-col gap-2">
+              <a
+                href="tel:7842663221"
+                className="inline-flex items-center justify-center px-6 py-2 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 transition-colors duration-200 shadow"
+              >
+                <span className="font-semibold mr-2">Contact:</span>
+                7842663221
+              </a>
+              <div className="flex gap-4 justify-center">
+                <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
+                  <Github className="h-5 w-5" />
+                </Button>
+                <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
+                  <Linkedin className="h-5 w-5" />
+                </Button>
+              </div>
             </div>
           </div>
         </div>
