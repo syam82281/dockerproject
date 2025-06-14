@@ -65,8 +65,8 @@ const Index = () => {
               </div>
             </div>
             {/* User Name */}
-            <h2 className="text-xl font-semibold text-gray-800 mb-1">
-              k.syamprasad
+            <h2 className="text-2xl font-bold text-gray-800 mb-1">
+              Hi, I'm <span className="font-bold">k.syamprasad</span>
             </h2>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               DevOps Engineer
