@@ -70,14 +70,6 @@ const Index = () => {
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
               DevOps Engineer
             </h1>
-            {/* About Me Heading */}
-            <h3 className="mt-6 text-xl font-bold text-gray-900">
-              About Me
-            </h3>
-            <p className="mt-2 text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
-              Passionate about building scalable, secure, and automated infrastructure solutions using AWS cloud services and Linux systems. 
-              Specializing in CI/CD pipelines, containerization, and infrastructure as code.
-            </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl">
                 <Mail className="mr-2 h-4 w-4" />
@@ -88,6 +80,14 @@ const Index = () => {
                 View GitHub
               </Button>
             </div>
+            {/* About Me Heading & Description moved here */}
+            <h3 className="mt-10 text-xl font-bold text-gray-900">
+              About Me
+            </h3>
+            <p className="mt-2 text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
+              Passionate about building scalable, secure, and automated infrastructure solutions using AWS cloud services and Linux systems. 
+              Specializing in CI/CD pipelines, containerization, and infrastructure as code.
+            </p>
           </div>
         </div>
       </section>
