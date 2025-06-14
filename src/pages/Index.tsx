@@ -50,10 +50,18 @@ const Index = () => {
       <section className="relative px-6 py-20 sm:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="text-center">
-            <div className="relative inline-block">
+            {/* Profile Picture */}
+            <div className="relative inline-block mb-8">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full blur-xl opacity-20 animate-pulse"></div>
-              <div className="relative bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full p-4 mb-8 inline-block">
-                <Shield className="h-16 w-16 text-white" />
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/e18abbcb-a9a8-490a-8111-1c6a9887eb40.png" 
+                  alt="DevOps Engineer Profile" 
+                  className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white shadow-2xl"
+                />
+                <div className="absolute -bottom-2 -right-2 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full p-3">
+                  <Shield className="h-6 w-6 text-white" />
+                </div>
               </div>
             </div>
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
