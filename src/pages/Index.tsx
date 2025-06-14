@@ -73,14 +73,26 @@ const Index = () => {
               DevOps Engineer
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button size="lg" className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl">
-                <Mail className="mr-2 h-4 w-4" />
-                Get In Touch
-              </Button>
-              <Button variant="outline" size="lg" className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300">
-                <Github className="mr-2 h-4 w-4" />
-                View GitHub
-              </Button>
+              <a
+                href="mailto:syamprasa27@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Get In Touch
+                </Button>
+              </a>
+              <a
+                href="https://github.com/your-github-username"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" size="lg" className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all duration-300">
+                  <Github className="mr-2 h-4 w-4" />
+                  View GitHub
+                </Button>
+              </a>
             </div>
             {/* About Me Heading & Description moved here */}
             <h3 className="mt-10 text-xl font-bold text-white">
@@ -247,12 +259,26 @@ const Index = () => {
                 7842663221
               </a>
               <div className="flex gap-4 justify-center">
-                <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
-                  <Github className="h-5 w-5" />
-                </Button>
-                <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
-                  <Linkedin className="h-5 w-5" />
-                </Button>
+                <a
+                  href="https://github.com/your-github-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
+                    <Github className="h-5 w-5" />
+                  </Button>
+                </a>
+                <a
+                  href="https://linkedin.com/in/your-linkedin-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <Button variant="outline" size="lg" className="border-gray-300 hover:bg-gray-50 transition-all duration-300">
+                    <Linkedin className="h-5 w-5" />
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
