@@ -270,7 +270,7 @@ const Index = () => {
                   </Button>
                 </a>
                 <a
-                  href="https://linkedin.com/in/your-linkedin-username"
+                  href="https://linkedin.com/in/syam-prasad-543369285"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
