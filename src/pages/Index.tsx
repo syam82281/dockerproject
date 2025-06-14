@@ -170,10 +170,10 @@ const Index = () => {
       <section className="py-20 px-6 bg-white/30 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Featured Projects
             </h2>
-            <p className="mt-4 text-lg text-gray-800">
+            <p className="mt-4 text-lg text-gray-200">
               Some of my recent DevOps implementations and infrastructure projects
             </p>
           </div>
