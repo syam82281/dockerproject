@@ -48,20 +48,8 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-black dark:bg-gray-900">
-      {/* Header with Theme Toggle */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-black/80 dark:bg-gray-900/80 backdrop-blur-sm border-b border-white/10">
-        <div className="mx-auto max-w-7xl px-6 py-4">
-          <div className="flex justify-between items-center">
-            <div className="text-white">
-              <span className="text-xl font-bold">k.syamprasad</span>
-            </div>
-            <ThemeToggle />
-          </div>
-        </div>
-      </header>
-
       {/* Hero Section */}
-      <section className="relative px-6 py-20 sm:py-32 pt-32">
+      <section className="relative px-6 py-20 sm:py-32">
         <div className="mx-auto max-w-7xl">
           <div className="text-center">
             {/* Profile Picture */}
