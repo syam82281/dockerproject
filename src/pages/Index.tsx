@@ -3,6 +3,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { SkillsSection } from "@/components/SkillsSection";
+import { EducationSection } from "@/components/EducationSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ContactSection } from "@/components/ContactSection";
 import { FooterSection } from "@/components/FooterSection";
@@ -29,6 +30,9 @@ const Index = () => {
         <HeroSection />
       </div>
       <SkillsSection />
+      <div id="education">
+        <EducationSection />
+      </div>
       <ProjectsSection />
       <div id="contact">
         <ContactSection />
