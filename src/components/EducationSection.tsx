@@ -7,9 +7,9 @@ export const EducationSection = () => {
   const education = [
     {
       degree: "Bachelor of Technology",
-      field: "Computer Science & Engineering",
-      institution: "University Name",
-      year: "2020-2024",
+      field: "Information Technology",
+      institution: "Usha Ram Engineering and Technology",
+      year: "2021-2026",
       description: "Focused on software engineering, system design, and DevOps fundamentals",
       type: "degree"
     },
