@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Home, Mail, GraduationCap } from "lucide-react";
+import { Home, Mail, GraduationCap, FolderOpen } from "lucide-react";
 
 export const Navigation = () => {
   const scrollToSection = (sectionId: string) => {
@@ -29,6 +29,15 @@ export const Navigation = () => {
       >
         <GraduationCap className="h-4 w-4 mr-2" />
         Education
+      </Button>
+      <Button
+        variant="ghost"
+        size="sm"
+        onClick={() => scrollToSection('projects')}
+        className="text-white hover:text-blue-400 hover:bg-white/10"
+      >
+        <FolderOpen className="h-4 w-4 mr-2" />
+        Projects
       </Button>
       <Button
         variant="ghost"
