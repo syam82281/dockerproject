@@ -82,7 +82,7 @@ export const SkillsSection = () => {
           <h2 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-green-600 to-emerald-600 dark:from-emerald-400 dark:to-green-400 bg-clip-text text-transparent mb-4">
             Technical Expertise
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-800 dark:text-gray-300 max-w-2xl mx-auto">
             Comprehensive experience across the DevOps ecosystem with hands-on expertise in modern cloud technologies, 
             automation tools, and enterprise-grade infrastructure management.
           </p>
@@ -98,7 +98,7 @@ export const SkillsSection = () => {
                   </div>
                   <span className="text-gray-900 dark:text-white">{category.title}</span>
                 </CardTitle>
-                <CardDescription className="text-gray-600 dark:text-gray-300">
+                <CardDescription className="text-gray-700 dark:text-gray-300">
                   {category.title === "AWS Cloud Services" && "Comprehensive experience with Amazon Web Services"}
                   {category.title === "Linux & System Administration" && "Expert-level Linux administration with Red Hat specialization"}
                   {category.title === "DevOps & Automation" && "Modern DevOps practices and automation tools"}
@@ -113,7 +113,7 @@ export const SkillsSection = () => {
                     <Badge 
                       key={skill} 
                       variant="secondary" 
-                      className={`bg-white/80 dark:bg-gradient-to-r dark:${category.bgGradient} text-gray-700 dark:text-white hover:scale-105 transition-all duration-200 cursor-default border ${category.borderColor}`}
+                      className={`bg-white/80 dark:bg-gradient-to-r dark:${category.bgGradient} text-gray-800 dark:text-white hover:scale-105 transition-all duration-200 cursor-default border ${category.borderColor}`}
                     >
                       {skill}
                     </Badge>

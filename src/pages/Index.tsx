@@ -15,45 +15,52 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Index = () => {
   useEffect(() => {
-    // Faster header animation
-    gsap.fromTo("header", 
-      { y: -50, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.6, ease: "power2.out" }
+    // Optimized animations with reduced complexity
+    const tl = gsap.timeline();
+    
+    // Header animation
+    tl.fromTo("header", 
+      { y: -30, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.4, ease: "power2.out" }
     );
 
-    // Faster section animations on scroll
-    gsap.utils.toArray(".animate-section").forEach((section: any) => {
+    // Section animations with better performance
+    const sections = gsap.utils.toArray(".animate-section");
+    sections.forEach((section: any) => {
       gsap.fromTo(section,
-        { y: 30, opacity: 0 },
+        { y: 20, opacity: 0 },
         {
           y: 0,
           opacity: 1,
-          duration: 0.6,
+          duration: 0.4,
           ease: "power2.out",
           scrollTrigger: {
             trigger: section,
-            start: "top 85%",
-            end: "bottom 25%",
-            toggleActions: "play none none reverse"
+            start: "top 90%",
+            end: "bottom 20%",
+            toggleActions: "play none none reverse",
+            once: true // Animate only once for better performance
           }
         }
       );
     });
 
-    // Faster card stagger animations
-    gsap.utils.toArray(".stagger-card").forEach((card: any, index) => {
+    // Optimized card animations
+    const cards = gsap.utils.toArray(".stagger-card");
+    cards.forEach((card: any, index) => {
       gsap.fromTo(card,
-        { y: 20, opacity: 0 },
+        { y: 15, opacity: 0 },
         {
           y: 0,
           opacity: 1,
-          duration: 0.5,
-          delay: index * 0.1,
+          duration: 0.3,
+          delay: index * 0.05, // Reduced stagger delay
           ease: "power2.out",
           scrollTrigger: {
             trigger: card,
-            start: "top 90%",
-            toggleActions: "play none none reverse"
+            start: "top 95%",
+            toggleActions: "play none none reverse",
+            once: true
           }
         }
       );
@@ -66,14 +73,14 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-white dark:bg-gradient-to-br dark:from-gray-900 dark:via-gray-800 dark:to-black transition-colors duration-300">
-      {/* Improved animated background elements for dark mode only */}
+      {/* Optimized background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none dark:block hidden">
         <div className="absolute top-1/4 left-1/4 w-80 h-80 bg-gradient-to-r from-emerald-500/20 to-green-500/20 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-to-r from-blue-500/15 to-cyan-500/15 rounded-full blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-3/4 left-1/3 w-60 h-60 bg-gradient-to-r from-purple-500/15 to-pink-500/15 rounded-full blur-3xl animate-pulse delay-2000"></div>
       </div>
 
-      {/* Light mode subtle background pattern */}
+      {/* Light mode background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none dark:hidden block">
         <div className="absolute inset-0 bg-gradient-to-br from-green-50/50 to-emerald-50/30"></div>
         <div className="absolute top-0 left-0 w-full h-full opacity-[0.03]" 
@@ -83,8 +90,8 @@ const Index = () => {
              }}></div>
       </div>
 
-      {/* Header with Navigation and Theme Toggle */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md border-b border-green-200/30 dark:border-emerald-500/20 transition-colors duration-300">
+      {/* Header with improved contrast */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md border-b border-green-200/30 dark:border-emerald-500/20 transition-colors duration-300">
         <div className="mx-auto max-w-7xl px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-gray-900 dark:text-white transition-colors duration-300">
