@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Mail, Github, Shield, Download, Code, Server } from "lucide-react";
 
@@ -28,12 +27,6 @@ export const HeroSection = () => {
               <span className="text-green-700 dark:text-green-400 text-sm font-medium flex items-center gap-2">
                 <div className="w-2 h-2 bg-green-500 dark:bg-green-400 rounded-full animate-pulse"></div>
                 Available for opportunities
-              </span>
-            </div>
-            <div className="bg-emerald-100/80 dark:bg-emerald-500/20 backdrop-blur-sm border border-emerald-300 dark:border-emerald-500/30 rounded-full px-4 py-2">
-              <span className="text-emerald-700 dark:text-emerald-400 text-sm font-medium flex items-center gap-2">
-                <Code className="w-4 h-4" />
-                3+ Years Experience
               </span>
             </div>
           </div>
